@@ -3,3 +3,9 @@ docker run -p 3500:3000 \
 -v /mnt/c/pyapps3/mywebsite/client/components:/app/components \
 -v /mnt/c/pyapps3/mywebsite/client/app:/app/app \
  pagweb
+
+ docker build -t pagweb .
+docker run -p 3500:3000 \
+-v /home/rufus/pyapps3/mywebsite/client/components:/app/components \
+-v home/rufus/pyapps3/mywebsite/client/app:/app/app \
+ pagweb
