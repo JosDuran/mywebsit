@@ -7,5 +7,5 @@ docker run -p 3500:3000 \
  docker build -t pagweb .
 docker run -p 3500:3000 \
 -v /home/rufus/pyapps3/mywebsite/client/components:/app/components \
--v home/rufus/pyapps3/mywebsite/client/app:/app/app \
+-v /home/rufus/pyapps3/mywebsite/client/app:/app/app \
  pagweb
